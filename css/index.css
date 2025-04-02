@@ -1,0 +1,136 @@
+/* Reset de margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Corpo da página */
+body {
+    background-color: #ffffff; /* Cor de fundo suave */
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #ff0000;
+    color: white;
+    padding: 20px 0; /* Maior padding para o cabeçalho */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Centraliza o conteúdo do cabeçalho */
+}
+
+/* Estilo do título */
+header h1 {
+    font-size: 32px;
+    letter-spacing: 2px;
+    background: #420505;
+    padding: 10px;
+    margin-top: 0px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Melhor visibilidade com sombra */
+    border-bottom: 3px solid #000000; /* Linha mais visível */
+}
+
+/* Estilo do menu de navegação */
+nav ul {
+    text-shadow: #000000;
+    background: #ff6f6f;
+    padding: 10px;
+    list-style: none;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 10px; /* Arredondar as bordas do menu */
+}
+
+/* Estilo dos itens de navegação */
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* Estilo dos links */
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease; /* Efeito suave de transição */
+}
+
+/* Efeito de hover nos links */
+nav ul li a:hover {
+    background: #ff3333; /* Alteração da cor de fundo ao passar o mouse */
+    color: #fff; /* Mantém o texto branco */
+}
+
+/* Estilo responsivo para telas pequenas */
+@media (max-width: 600px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    nav ul li a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 12px; /* Mais espaçamento em dispositivos móveis */
+    }
+}
+.produtos-list{
+    text-align: center;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+
+}
+
+.produto {
+    border: 1px solid rgb(3, 1, 1);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 25px;
+    width: 250px;
+    height: 300px;
+    
+}
+
+h3{
+    width: 100%;
+    
+}
+
+.produto4 {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comprar{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+}
+.div_compras{
+    width: 100%;
+    height: 10px;
+}
+.cabecalho{
+    width: 100%;
+    margin-left: 10px;
+}
